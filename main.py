@@ -34,3 +34,25 @@
 # PATCH: updates a specified resource on the server with the request body.
 
 
+
+# Request headers contain meta data about the request and are sent as key:value pairs
+# They convey core information such as what browser is being used, and what data is being
+# requested.
+
+
+# The request body contains any info submitted in a form that should be sent to the server.
+
+
+
+# HTTP response is what the server sends back in response to the request from the client
+# it contains:
+# Status code, response headers, and a response body.
+
+# Status codes are 3 digit codes that give information about the status of the request. There are 5 blocks
+# 100 status codes are informational
+# 200 denote a successful request
+# 300 denote redirection is necessary
+# 400 are an error on the client side
+# 500 an error on the server side.
+
+
