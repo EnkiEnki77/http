@@ -56,3 +56,13 @@
 # 500 an error on the server side.
 
 
+
+# Older versions of HTTP opened and closed a TCP connection with each request. Newer versions keep the
+# TCP connection open, so multiple requests can be made over it, improving resource consumption.
+
+# Because the connection is kept open, DDOS attacks can be made on a server, where a large amount of
+# requests are made at once. This considered an application layer or layer 7 attack.
+
+
+
+
