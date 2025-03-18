@@ -1,0 +1,12 @@
+without https your http messages are simly in plain text. This includes things like password or
+credit card info.
+
+we need https so that we can encrypt sensitive data being exchanged between a client and server.
+
+using https http messages are sent in an encrypted form, using TLS protocol. Transport Layer Security.
+
+just like with http, the browser first establishes a TCP connection with the server through a three way
+handshake
+
+next, a TLS handshake (certificate check) must be commenced. The browser sends a Client Hello to the server
+this message tells the server things such as what TLS version it supports 
