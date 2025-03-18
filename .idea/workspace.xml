@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd18636d-71f5-42f1-85b5-6c3c2e8caf5c" name="Changes" comment="Learning about https">
+    <list default="true" id="fd18636d-71f5-42f1-85b5-6c3c2e8caf5c" name="Changes" comment="Learned how the TLS handshake is utilized to commence symmetric encryption of exchanged data between the client/server through a session key and cipher suite.">
+      <change afterPath="$PROJECT_DIR$/course/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/https" beforeDir="false" afterPath="$PROJECT_DIR$/https" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1742034874324</updated>
       <workItem from="1742034875380" duration="10144000" />
-      <workItem from="1742268336713" duration="2186000" />
+      <workItem from="1742268336713" duration="5173000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -117,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742268558492</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Learned how the TLS handshake is utilized to commence symmetric encryption of exchanged data between the client/server through a session key and cipher suite.">
+      <option name="closed" value="true" />
+      <created>1742272616409</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742272616409</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +137,7 @@
     <MESSAGE value="Learned about HTTP responses" />
     <MESSAGE value="Learned about HTTP1 - 3" />
     <MESSAGE value="Learning about https" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learning about https" />
+    <MESSAGE value="Learned how the TLS handshake is utilized to commence symmetric encryption of exchanged data between the client/server through a session key and cipher suite." />
+    <option name="LAST_COMMIT_MESSAGE" value="Learned how the TLS handshake is utilized to commence symmetric encryption of exchanged data between the client/server through a session key and cipher suite." />
   </component>
 </project>
