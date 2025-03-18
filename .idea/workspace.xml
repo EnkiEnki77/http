@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd18636d-71f5-42f1-85b5-6c3c2e8caf5c" name="Changes" comment="Learned what a client and server are">
-      <change afterPath="$PROJECT_DIR$/fetch.js" afterDir="false" />
+    <list default="true" id="fd18636d-71f5-42f1-85b5-6c3c2e8caf5c" name="Changes" comment="Learned how to make an http request using fetch API">
+      <change afterPath="$PROJECT_DIR$/course/web_addresses.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -77,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1742034874324</updated>
       <workItem from="1742034875380" duration="10144000" />
-      <workItem from="1742268336713" duration="8931000" />
+      <workItem from="1742268336713" duration="9890000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -143,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742277727724</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Learned how to make an http request using fetch API">
+      <option name="closed" value="true" />
+      <created>1742281580993</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1742281580993</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +165,7 @@
     <MESSAGE value="Learned how the TLS handshake is utilized to commence symmetric encryption of exchanged data between the client/server through a session key and cipher suite." />
     <MESSAGE value="Learned what a protocol is" />
     <MESSAGE value="Learned what a client and server are" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learned what a client and server are" />
+    <MESSAGE value="Learned how to make an http request using fetch API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learned how to make an http request using fetch API" />
   </component>
 </project>
