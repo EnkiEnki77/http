@@ -24,3 +24,14 @@
 # act as a client requesting comments from the comment computer. Then send the video and comments back to our
 # phone
 
+
+
+# Having to write the extensive logic for making an HTTP request from scratch every time would be a lot, so the
+# browser provides an API to us through JS that abstracts away a lot of that logic, making things a lot more
+# simple. It's called the fetch API
+
+# Fetch takes the url youd like to make a request with and a settings object that defines the settings of the
+# http request as inputs.
+
+# in the settings object you can set things such as the http method, the mode, and the headers.
+
