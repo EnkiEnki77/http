@@ -17,10 +17,27 @@ async function fetchIPAddress(domain){
     )
     const responseObj = await response.json()
 
-    console.log(`IP address: ${responseObj.Answer[0].data}`)
+    // console.log(`IP address: ${responseObj.Answer[0].data}`)
 
-    // return responseObj.Answer[0].data
+    return responseObj.Answer[0].data
 }
 
 fetchIPAddress("example.com")
+
+
+
+// The domain name/host name is only a part of the URL. It is the part of the URL that allows us to derive the IP
+// of the server we want to communicate with.
+
+function getDomainNameFromURL(url){
+    const urlObj = new URL(url).hostname
+    return urlObj
+}
+
+// The URL api is an api built into js that allows us to turn URL's into an object, with each of it's pieces being
+// a property. To access the domain you would use the hostname property.
+
+// Its a class so it has to be instantiated with the new keyword.
+
+console.log(getDomainNameFromURL('https://homestarrunner.com/toons'))
 
