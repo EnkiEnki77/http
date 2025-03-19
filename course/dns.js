@@ -55,3 +55,12 @@ console.log(getDomainNameFromURL('https://homestarrunner.com/toons'))
 
 
 
+// Sub domains prefix a domain and allow a domain to network traffic to multiple different servers and resources.
+
+// Say we have the domain boot.dev. A sub domain would be blog.boot.dev, and it may exist at a different IP.
+
+// So we can break up our site/resources onto multiple IP addresses without having to buy additional domains.
+// You own all sub domains of a given domain.
+
+
+// The part of the domain such as .dev, .com, .org, etc. Is called the top level domain
