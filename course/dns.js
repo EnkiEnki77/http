@@ -41,3 +41,17 @@ function getDomainNameFromURL(url){
 
 console.log(getDomainNameFromURL('https://homestarrunner.com/toons'))
 
+
+
+
+// DNS (domain name system) is the phone book of the internet. Humans type easy to read domain names into their web
+// web browser. DNS resolves these domains into an IP address the client can use to locate and make an http request
+// to a server.
+
+// DNS is managed by a non-profit company called ICANN. Whenever your computer attempts to resolve a domain name it
+// contacts one of ICANN's root nameservers whose address is included in your computers networking config.
+
+// If DNS is a phone book ICANN is the company that keeps it up to date and available.
+
+
+
